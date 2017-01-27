@@ -1,10 +1,11 @@
 (function(){
     angular
         .module('app',[
-            /*shared modules*/
-            'app.core',
+                /*shared modules*/
+                'app.core'
 
-            /* feature modules*/
-            'app.module.home'
-        ]);
+                /* feature modules*/
+                // 'app.module.home'
+            ]
+        );
 })();
